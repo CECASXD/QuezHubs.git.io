@@ -1,0 +1,75 @@
+
+.Ana-Bolum1{
+	font-family: 'Roboto', sans-serif;
+	width: 500px;
+	background: #830d0d;
+	
+}
+	.ana-bolum{
+		font-family: 'Roboto', sans-serif;
+		width:1250px;
+		margin: 38px auto;
+		display:table;
+		padding:10px;
+		border: 7px solid whitesmoke ;
+		background: whitesmoke;
+	}
+	.ana-bolum .kutu{
+		float:left;
+		width:22%;
+		height:auto;
+		border:2px solid gray;
+		padding:1%;
+		margin-right:0px;
+		margin-left:83px;
+		margin-top:30px;
+		
+	}
+	.ana-bolum .kutu:nth-child(5n+4){
+		margin-right:0;
+		
+	}
+	.ana-bolum .kutu *{
+		display:table;
+		margin: 20px auto;
+	}
+	.ana-bolum .kutu .baslik{
+		margin-top:3px;
+        font-size:27px;
+		font-family: Arial, Helvetica, sans-serif;
+		color:#000;
+		text-decoration:none;
+	}
+	.ana-bolum .kutu .aciklama{
+		margin-top:1.5px;
+		font-size:20px;
+		color:rgb(0, 0, 0);
+		text-decoration:none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+	.ana-bolum .kutu .link{
+		height:2px;
+        
+		margin-top: 10px;
+		font-size: 14px;
+		text-decoration: none;
+		border: 2px solid black;
+		padding: 10px 40px;
+		background:rgb(48, 48, 48);
+		color: #f1f1f1;
+	}
+	.ana-bolum .kutu .fotograf{
+		width:100%;
+		height:150px;
+		
+	}
+	.ana-bolum .kutu .fotograf img{
+		width:100%;
+		height:150px;
+	}
+	.ayirici{
+		
+		width:10px;
+		height:20px;
+		float:left;
+	}
